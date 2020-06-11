@@ -28,10 +28,10 @@ int numOfSpaces(char str[]){
         binary /= 2;
     }
     
-    while(power < items || power % 4 != 0)
-        power = power * 2;
+    while(items % 8 != 0)
+        items++
     
-    return power;
+    return items;
 }
 
 void arrayFilled(char str[], int length, int *incoming){
