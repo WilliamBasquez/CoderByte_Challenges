@@ -29,7 +29,7 @@ int numOfSpaces(char str[]){
     }
     
     while(items % 8 != 0)
-        items++
+        items++;
     
     return items;
 }
